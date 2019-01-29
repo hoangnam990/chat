@@ -1,0 +1,28 @@
+{
+  "name": "Socketio-random-chat",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js --harmony"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://git.heroku.com/damp-waters-91942.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "cors": "^2.7.1",
+    "ejs": "^2.6.1",
+    "express": "^4.13.4",
+    "express-session": "^1.15.6",
+    "express-validator": "^5.3.0",
+    "lodash": "^4.15.0",
+    "md5": "^2.1.0",
+    "mongodb": "^2.1.19",
+    "mongoose": "^5.3.15",
+    "socket.io": "^1.4.6"
+  }
+}
